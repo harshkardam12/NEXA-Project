@@ -1,0 +1,128 @@
+.service-container {
+    text-align: center;
+    background-color: #000000;
+    padding: 50px;
+    padding-top: 90px;
+}
+
+
+
+.service-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 0%;
+    color: aliceblue;
+}
+
+.service-para {
+    color: aliceblue;
+    margin-top: 0%;
+    padding-bottom: 50px;
+}
+.service-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+.service-card {
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 4px rgba(190, 212, 246, 0.9);
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.service-one h3 {
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.blue-light {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 100px;
+    background: linear-gradient(rgba(13, 110, 253, 0.25),
+            rgba(13, 110, 253, 0.9),
+            rgba(13, 110, 253, 0.55),
+            transparent 70%);
+    filter: blur(21px);
+    margin-top: 8vh;
+    border-top-left-radius: 490% 490%;
+    border-top-right-radius: 490% 490%;
+    border-bottom-left-radius: 490% 490%;
+    border-bottom-right-radius: 490% 490%;
+
+}
+
+.service-card {
+    height: auto;
+    width: 17vw;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.fa-users {
+    height: 15vh;
+    width: auto;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #c43131;
+}
+
+.fa-cogs {
+    height: 15vh;
+    width: auto;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #31c468;
+}
+
+.fa-drafting {
+    height: 15vh;
+    width: auto;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #3194c4;
+}
+
+.fa-chart {
+    height: 15vh;
+    width: auto;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e0e031;
+}
+
+.fa-bullhorn {
+    height: 15vh;
+    width: auto ;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #c4319e;
+}
+
+.service-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: white;
+}

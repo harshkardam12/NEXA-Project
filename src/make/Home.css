@@ -1,0 +1,173 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.home1 {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 30px;
+    caret-color: transparent;
+}
+
+.home1 h1 {
+    color: aliceblue;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 80px;
+    text-align: center;
+    margin: 0%;
+}
+
+.home1 p {
+    color: rgb(120, 173, 221);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.explore-bttn {
+    margin: 40px auto 0 auto;
+    padding: 10px 25px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    transition: 0.3s ease;
+    /* Smooth animation */
+}
+
+.explore-bttn:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+    /* Slight zoom */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Soft glow */
+}
+
+.home2 {
+    width: 100%;
+    background-color: #000000;
+    margin-top: 0%;
+    display: flex;
+}
+
+.home2 h2 {
+    color: aliceblue;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    margin-left: 90px;
+}
+
+.home2 p {
+    width: 50vw;
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 0%;
+    line-height: 1.6;
+}
+
+.know-more {
+    color: white;
+    text-decoration: none;
+    margin-top: 0%;
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+
+.host {
+    width: 30vw;
+    height: 40vh;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+@media (max-width:1024px) {
+    .home2 p {
+        width: 40vw;
+    }
+
+    .host {
+        height: 35vh;
+        width: 40vw;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .home1 h1 {
+        font-size: 65px;
+    }
+
+    .host {
+        height: 25vh;
+        width: 35vw;
+        margin-top: 30px;
+    }
+
+    .home2 h2 {
+        margin-left: 30px;
+    }
+
+    .home2 p {
+        margin-left: 30px;
+        font-size: 17px;
+    }
+
+    .know-more {
+
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:480px) {
+    .home1 h1 {
+        font-size: 50px;
+    }
+
+    .home1 p {
+        font-size: 18px;
+    }
+
+    .explore-bttn {
+        padding: 7px 14px;
+
+    }
+
+    .home2 {
+        flex-direction: column;
+    }
+
+    .home2 p {
+        margin-left: 20px;
+        font-size: 17px;
+        width: 95vw;
+    }
+
+    .home h2 {
+        font-size: 40px;
+    }
+
+    .know-more {
+
+        margin-left: 20px;
+    }
+
+    .host {
+        width: 80vw;
+        height: 30vh;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        border-radius: 30px;
+    }
+}

@@ -1,0 +1,41 @@
+.who-main {
+    background-color: #000000;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.who-main h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0%;
+}
+
+.who-main p {
+    color: white;
+}
+
+.who-img {
+    color: white;
+    width: 80vw;
+    background-color: grey;
+    height: 40vh;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.who-main article {
+    margin-top: 4rem;
+    font-size: 23px;
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+}
+.who-main article p {
+    color: darkgray;
+}

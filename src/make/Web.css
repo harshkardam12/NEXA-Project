@@ -1,0 +1,135 @@
+/* =========================
+   Web Development Section
+========================= */
+
+.web-main {
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.web-container {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    border-bottom: #2563eb 4px solid;
+    justify-content: space-between;
+
+    overflow: hidden;
+    /* 🔥 removes unwanted overflow */
+}
+
+/* =========================
+   Text Section
+========================= */
+
+.web-container-text {
+    width: 35vw;
+    z-index: 2;
+    caret-color: transparent;
+    margin-top: -80px;
+    margin-left: 50px;
+}
+
+.web-container-text h1 {
+    margin: 0;
+    font-size: 55px;
+    font-weight: 550;
+    color: white;
+}
+
+.web-container-text h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #e5e7eb;
+    max-width: 520px;
+}
+
+.web-container-text p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d1d5db;
+    max-width: 520px;
+}
+
+/* =========================
+   Image Section
+========================= */
+
+.web-container-img {
+    width: 50%;
+
+}
+
+/* Earth Image */
+.planet {
+    width: 120vh;
+    height: auto;
+    /* 🔥 removes inline gap */
+    margin-left: -20vh;
+
+    margin-top: -5vh;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 40px rgba(59, 130, 246, 0.6));
+}
+
+/* =========================
+   Button
+========================= */
+
+.nexa-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
+    transition: all 0.3s ease;
+}
+
+.nexa-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 35px rgba(59, 130, 246, 0.9);
+    background: linear-gradient(135deg, #3b82f6, #60a5fa);
+}
+
+.nexa-btn:active {
+    transform: scale(0.96);
+}
+
+/* =========================
+   Responsive (Mobile)
+========================= */
+
+@media (max-width: 900px) {
+    .web-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .web-container-text,
+    .web-container-img {
+        width: 100%;
+    }
+
+    .web-container-text h1 {
+        font-size: 40px;
+    }
+
+    .web-container-text h3,
+    .web-container-text p {
+        max-width: 100%;
+    }
+
+    .planet {
+        margin-top: 40px;
+        transform: scale(1);
+    }
+}

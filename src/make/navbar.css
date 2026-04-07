@@ -1,0 +1,75 @@
+/* NAVBAR */
+.navbar {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(7px);
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+    overflow-x: auto;        /* small screen pe scroll */
+    white-space: nowrap;     /* row hi rahe */
+}
+
+/* Hide Scrollbar (optional clean look) */
+.navbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* BUTTONS */
+.nav-butn {
+    border: none;
+    padding: 8px 18px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: transparent;
+    margin: 0 10px;
+    flex-shrink: 0;          /* squeeze nahi hoga */
+    transition: 0.3s ease;
+}
+
+/* Hover */
+.nav-butn:hover {
+    background: rgba(0, 140, 255, 0.15);
+    color: #00aaff;
+    box-shadow: 0 0 8px #008cff,
+                0 0 18px #008cff;
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+    
+    .nav-butn {
+        font-size: 0.9rem;
+        padding: 6px 14px;
+        margin: 0 6px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .navbar {
+    padding-right: 50px;
+    }
+    .nav-butn {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+        margin: 0 4px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .nav-butn {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+        padding-right: 10px;
+        margin-right: 20px;
+    }
+}
+    
