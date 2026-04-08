@@ -8,7 +8,6 @@ import WHO from "./component/WHO";
 import Service from "./component/Service";
 import Navbar from "./component/Navbar";
 import Web from "./component/Web";
-import Home from "./component/Home";
 
 function App() {
   return (
@@ -24,8 +23,7 @@ function App() {
           <Route path="/ser" element={<Service />} />
         </Routes>
         
-        {/* <Web /> */}
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );

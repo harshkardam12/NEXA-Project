@@ -5,12 +5,7 @@ import img4 from "../asset/web host.jpg"
 
 function Home() {
 
-  const scrollTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  };
+  
 
   return (
     <div className='home'>
