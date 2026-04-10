@@ -56,8 +56,10 @@ function Footer() {
             </div>
             <div className='footer-last'>
                 <div> <p>© 2024 NEXA. All rights reserved.</p></div>
-                <div className='h32'><h3>PRIVACY POLICY</h3>
-                    <h3>TERM OF SERVICES</h3></div>
+                <div className='h32'>
+                    <h3>PRIVACY POLICY</h3>
+                    <h3>TERM OF SERVICES</h3>
+                </div>
             </div>
         </div>
     )

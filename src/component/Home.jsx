@@ -4,9 +4,6 @@ import { Link } from "react-router-dom";
 import img4 from "../asset/web host.jpg"
 
 function Home() {
-
-  
-
   return (
     <div className='home'>
       <div className='home1'>

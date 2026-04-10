@@ -171,3 +171,19 @@ body {
         border-radius: 30px;
     }
 }
+
+@media(max-width:320px) {
+
+    .home2 p {
+        margin-left: 10px;
+    }
+
+    .know-more {
+
+        margin-left: 10px;
+    }
+
+    .home h2 {
+        margin-left: 10px;
+    }
+}

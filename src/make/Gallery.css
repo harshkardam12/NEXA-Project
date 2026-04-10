@@ -119,3 +119,12 @@
     }
 
 }
+@media(max-width:320px) {
+        .gally-img {
+        height: 28vh;
+        width: 60vw;
+        }
+        .option button{
+            margin-left: 15px;
+        }
+    }
