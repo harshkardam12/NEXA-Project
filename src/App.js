@@ -16,11 +16,11 @@ function App() {
       <Navbar/>
         <Routes>
           {/* <Route path="/" element={<Main />} /> */}
-          <Route path="/abo" element={<About2 />} />
+          {/* <Route path="/abo" element={<About2 />} />
           <Route path="/con" element={<Contact />} />
           <Route path="/who" element={<WHO />} />
           <Route path="/web" element={<Web />} />
-          <Route path="/ser" element={<Service />} />
+          <Route path="/ser" element={<Service />} /> */}
         </Routes>
         
         <Footer />
