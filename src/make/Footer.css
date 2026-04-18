@@ -132,6 +132,9 @@
     margin-left: 40px;
     }
 }
+@media(max-width:375px){
+    
+}
 @media(max-width:480px) {
     .footer-head h1 {
         margin-left: 20px;
